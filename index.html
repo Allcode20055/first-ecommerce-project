@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is ecommerce website and abelable all elictric product"
+    />
+    <title>ecommerce website</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- google font awsame cdn start here -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font awsame cdn start here -->
+    <!-- img lider link start here -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- img lider link end here-->
+  </head>
+
+  <body>
+    <!-- nav section start here -->
+    <div class="manu">
+      <i class="fa-solid fa-bars manu__icon"></i>
+    </div>
+    <nav class="manu_hidden">
+      <ul class="nav-oupper">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__list">
+          <a href="registar.html" class="nav__link">Registar</a>
+        </li>
+
+        <li class="nav__list">
+          <a href="login.html" class="nav__link">Login</a>
+        </li>
+
+        <li class="nav__list">
+          <a href="index.html" class="nav__link">Logout</a>
+        </li>
+
+        <li class="nav__list">
+          <a href="contact.html" class="nav__link">Contact</a>
+        </li>
+
+        <li class="nav__list">
+          <div class="list__about">
+            <a href="#" class="nav__link nav__about">
+              Abut Brand
+              <span><i class="fa-solid fa-cart-flatbed-suitcase"></i></span
+            ></a>
+
+            <div class="list__Update">
+              <a href="cart.html" class="nav__link">Update</a>
+              <a href="" class="nav__link">Bajet Prodact</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <aside>
+        <a href="profile.html"
+          ><img src="img\1666074468775.jpg" alt="oner logo" class="aside-img"
+        /></a>
+      </aside>
+    </nav>
+    <!-- nav section start here -->
+
+    <!-- header start here -->
+    <header class="header">
+      <div class="banar displa__flex__propaty">
+        <div class="banar__content">
+          <p>24 hour service and. Your can oder any time</p>
+
+          <p>
+            Evry friday 20% discount of same product with same gift. and you
+            need product you can search below
+          </p>
+          <div class="banar__form">
+            <input
+              type="text"
+              placeholder="Search product"
+              class="banar__input"
+            />
+            <button class="banar__btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end here -->
+    <!-- main section start here -->
+    <main>
+      <section class="main__catagory__section">
+        <section class="catagory__section">
+          <section class="catagory">
+            <h2>Catagory</h2>
+            <ul class="catagoy__list">
+              <li>
+                <input
+                  type="checkbox"
+                  name="phone"
+                  id="phone"
+                  value="phone"
+                  class="catagoy__phone"
+                />
+                <label for="phone">Phone</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="teblet"
+                  id="teblet"
+                  value="teblet"
+                  class="catagoy__teblet"
+                />
+                <label for="phone">Teblet</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="laptop"
+                  id="laptop"
+                  value="laptop"
+                  class="catagoy__laptop"
+                />
+                <label for="leptop">Leptop</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="telivision"
+                  id="telivision"
+                  class="catagoy__Teliveision"
+                />
+                <label for="telivision">Telivision</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="computer"
+                  id="computer"
+                  class="catagoy__computer"
+                />
+                <label for="computer">Coumputer</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="hedphone"
+                  id="hedphone"
+                  class="catagoy__hedphone"
+                />
+                <label for="hedphone">Hedphone</label>
+              </li>
+            </ul>
+          </section>
+
+          <section class="price__range">
+            <h2>Price Range</h2>
+            <ul class="Price__list">
+              <li>
+                <input type="radio" name="price" id="price1" value="[0,20]" />
+                <label for="price1">$0-$20</label>
+              </li>
+              <li>
+                <input type="radio" name="price" id="price2" value="[21,50]" />
+                <label for="price2">$21-$50</label>
+              </li>
+              <li>
+                <input type="radio" name="price" id="price4" value="[51,100]" />
+                <label for="price4">$51-$100</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="price"
+                  id="price5"
+                  value="[101,200]"
+                />
+                <label for="price5">$101-$200</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="price"
+                  id="price6"
+                  value="[201,400]"
+                />
+                <label for="price6">$201-$400</label>
+              </li>
+              <li>
+                <input type="radio" name="price" id="price7" value="[500]" />
+                <label for="price7">$500+</label>
+              </li>
+            </ul>
+          </section>
+
+          <section class="shipping__Option">
+            <h2>Shipping Option</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="free" id="free" />
+                <label for="free">Free Shipping</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Paid" id="Paid" />
+                <label for="Paid">Paid Shipping</label>
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- <section class="main__card__section"> -->
+        <div class="additional__function">
+          <div class="reviw__ratin__searc__product">
+            <select>
+              <option value=" sell">Most Selling Frist</option>
+              <option value=" reting">Most Reting Frist</option>
+              <option value=" chipes">Most Chipest Frist</option>
+              <option value=" newst">Most Newst product</option>
+              <option value=" discount">Discount product</option>
+            </select>
+          </div>
+          <div class="function__search__product">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Search Product"
+              class="function__input banar__input"
+            />
+            <button class="banar__btn additional__function__btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="fountion__icon">
+            <p>Additional Manu</p>
+            <img src="img\menu.png" alt="" class="three__funcion" />
+            <img src="img\close.png" alt="" class="close__funcion" />
+          </div>
+        </div>
+        <div class="card__layout__section">
+          <article class="card">
+            <div class="card__hearder">
+              <img src="img/zana-latif-gtX5DIIHGqE-unsplash.jpg" alt="iphon" />
+            </div>
+
+            <div class="card__body">
+              <h3>Iphon 15 pro</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                Iphone 15 Iphone 15 pro abelable all and product you buying oder
+                now...
+
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/zana-latif-gtX5DIIHGqE-unsplash.jpg' , 'Iphone 15 pro' ,'price : $1000' , 'Rating : 4.4 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $1000</h4>
+              <p>Rating : 4.4 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__hearder">
+              <img
+                src="img/dmitry-chernyshov-mP7aPSUm7aE-unsplash (1).jpg"
+                alt="iphon"
+              />
+            </div>
+
+            <div class="card__body">
+              <h3>Mackbook pro</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                Mackbook , Mackbook pro abelable all and product you buying oder
+                now...
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/dmitry-chernyshov-mP7aPSUm7aE-unsplash (1).jpg' , 'Mackbook pro' , 'price : $1000' ,'Rating : 4.6 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $1000</h4>
+              <p>Rating : 4.6 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__hearder">
+              <img
+                src="img\matt-birchler-IaTuyBQ4gTw-unsplash.jpg"
+                alt="hedphone"
+              />
+            </div>
+
+            <div class="card__body">
+              <h3>AriPods max</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                AriPods Max AriPods pro abelable all and product you buying oder
+                now...
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/matt-birchler-IaTuyBQ4gTw-unsplash.jpg' , 'AriPods max' , 'price : $8500' ,'Rating : 2.4 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $8500</h4>
+              <p>Rating : 2.4 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__hearder">
+              <img src="img\thai-nguyen-TaOJEa6kcOY-unsplash.jpg" alt="iphon" />
+            </div>
+
+            <div class="card__body">
+              <h3>Ipad Pro</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                Ipad pro Ipad pro Max abelable all and product you buying oder
+                now...
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/thai-nguyen-TaOJEa6kcOY-unsplash.jpg' , 'Ipad Pros' , 'price : $1199' ,'Rating : 5 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $1199</h4>
+              <p>Rating : 5 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__hearder">
+              <img
+                src="img\pasqualino-capobianco-jJAFznI3MG0-unsplash.jpg"
+                alt="iphon"
+              />
+            </div>
+
+            <div class="card__body">
+              <h3>Sumsung Z Flip</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                Samsung Z Flip , Samsung Z Flip Pro abelable all and product you
+                buying oder now...
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/pasqualino-capobianco-jJAFznI3MG0-unsplash.jpg' , 'Sumsung Z Flip' , 'price : $1150' ,'Rating : 4 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $1150</h4>
+              <p>Rating : 4 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__hearder">
+              <img
+                src="img\nathan-dumlao-sW_10braKvE-unsplash.jpg"
+                alt="iphon"
+              />
+            </div>
+
+            <div class="card__body">
+              <h3>Samsung Laptop</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                Samsumg laptop Samsung book pro abelable all and product you
+                buying oder now...
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/nathan-dumlao-sW_10braKvE-unsplash.jpg', 'Samsung Laptop', 'Price : $1250' ,'Rating : 4.9 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $1250</h4>
+              <p>Rating : 4.9 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__hearder">
+              <img src="img\anh-nhat-N9w70b_ulyI-unsplash.jpg" alt="iphon" />
+            </div>
+
+            <div class="card__body">
+              <h3>Samsung S22 Ultra</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                Samsung S22 Ultra Samsung S23 Ultra abelable all and product you
+                buying oder now...
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/anh-nhat-N9w70b_ulyI-unsplash.jpg' , 'Samsung S22 Ultra','price : $1200','Rating : 4.8 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $1200</h4>
+              <p>Rating : 4.8 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__hearder">
+              <img src="img\onur-binay--WJQYRbgRLk-unsplash.jpg" alt="iphon" />
+            </div>
+            <div class="card__body">
+              <h3>Samsung Fold Pro</h3>
+            </div>
+            <div class="card__footer">
+              <p>
+                Samsung Fold 5 Samsung Fold 5 pro abelable all and product you
+                buying oder now...
+                <a
+                  href="product.html"
+                  onclick="transfarimg('img/onur-binay--WJQYRbgRLk-unsplash.jpg' , 'Samsung Fold Pro' , 'price : $1400' , 'Rating : 4 / 5')"
+                  >Learn more</a
+                >
+              </p>
+
+              <h4>price : $1400</h4>
+              <p>Rating : 4 / 5</p>
+            </div>
+            <div class="card__btn">
+              <button type="button">Add oder</button>
+            </div>
+          </article>
+        </div>
+        <!-- </section> -->
+      </section>
+
+      <section class="img__slider">
+        <div class="swiper">
+          <div class="img__slider__above"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="img\akhil-yerabati-Q2uV5TkjNz8-unsplash (1).jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img\jeff-hopper-iCtJF-A5hvs-unsplash.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img\diana-macesanu-fvPfMJL2wKw-unsplash.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img\andres-urena-vXPXRp_wIg4-unsplash.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img\julian-o-hayon-HY3l4IeOc3E-unsplash.jpg" />
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+    </main>
+    <!-- main section start here -->
+
+    <!-- footer section start here -->
+    <footer class="footer">
+      <div class="footer__input displa__flex__propaty">
+        <label for="brand newz" class="footer-label">Brand Newz :</label>
+        <input
+          type="email"
+          name="email"
+          class="email-input"
+          placeholder="Enter your email adress"
+        />
+        <button type="submit" value="submit" class="btn footer__btn">
+          Flow brand
+        </button>
+      </div>
+      <hr />
+      <div class="footer__icon displa__flex__propaty">
+        <p class="footer__para">
+          &copy; Copyright 2023 Piyas Express . All rights rserved
+        </p>
+        <button class="btn icon-btn">
+          <i class="fa-brands fa-facebook icons" style="color: #4267b2"></i>
+        </button>
+        <button class="btn icon-btn">
+          <i class="fa-brands fa-instagram icons"></i>
+        </button>
+        <button class="btn icon-btn">
+          <i class="fa-brands fa-reddit-alien icons" style="color: red"></i>
+        </button>
+        <button class="btn icon-btn">
+          <i class="fa-brands fa-twitter icons" style="color: #1da1f2"></i>
+        </button>
+      </div>
+    </footer>
+    <!-- footer section start here -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
